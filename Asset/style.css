@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding-top: 10%;
+}
+.product-card
+{
+    height: 350px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 100%);
+}
+.card{
+    height: 350px;
+    width: 250px;
+}
+img{
+    height: 100%;
+    width:100%;
+    border-radius: 10px 0 0 10px;
+}
+.product-description{
+    
+    padding: 20px 25px 0px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.product-category
+{
+    font-family: Montserrat,serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 10%;
+}
+.product-title{
+    font-family: Fraunces,serif;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+    padding-right: 25px;
+    padding-bottom: 10%;
+}
+.product-details{
+    font-family: Montserrat,serif;
+    font-weight: 500; 
+    color: hsl(228, 12%, 48%);
+    font-size: 12px;
+    padding-bottom: 10%;
+}
+.product-price{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    padding-bottom: 10%;
+}
+.product-sold{
+    display: flex;
+    font-family: Fraunces,serif;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    justify-self: center;
+    align-content: center;
+}
+.product-actual{
+    font-family: Montserrat,serif;
+    font-weight: 500; 
+    color: hsl(228, 12%, 48%);
+    font-size: 10px;
+    align-content: center;
+}
+.add-cart{
+    font-family: Montserrat,serif;
+    font-weight: 500;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap:5px;
+    border-radius: 5px;
+}
